@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body{
+  background-color: #0A2647 !important;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,76 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+.description{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.row,.col{
+  padding: 0;
+      padding-right: 0 !important;
+     padding-left: 0 !important;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.card-img, .card-img-top{
+      margin: auto;
+
+}
+.tbody.td{
+  width: 400px !important;
+
+}
+.Table tr th{
+  width: 400px !important;
+}
+.col .card{
+  background-color:#2C74B3;
+  ;
+}
+h2{
+  color:#144272;
+}
+p{
+  color:#205295;
+}
+.btn {
+  background: #0A2647;
+  padding: 10px;
+  font-weight: bold;
+}
+a{
+  color: #d9e8ff !important;
+    text-decoration: none !important;
+    padding: 5px;
+    margin: 3px;
+}
+button{
+    /* padding: 5px; */
+    border-radius: 5px !important;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:#2C74B3;
+    color: #0A2647;
+    transition: all 0.5s;
+}
+button:hover{
+  background-color:#0A2647;
+  color: #2C74B3;
+}
+.totp{
+  font-weight: bold;
+  font-size: 23px;
+}
+.Clear{
+  margin: 10px;
+  display: flex;
 }
